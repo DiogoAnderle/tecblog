@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 1em;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    background: #e6e6e6;
+}
+.postagem-lateral{
+    font-size: 0.8em;
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+.postagem-lateral:last-child{
+    border:none;
+}
+
+/*Formatação Geral*/
+h1{
+    font-size: 2.5em;
+}
+h2{
+    color: #0281b3;
+}
+h3{
+    color: #565656;
+    background-color: #ccc;
+    padding: 5px;
+}
+a{
+    text-decoration: none;
+    color: #b78701;
+}
+.data-postagem{
+    font-size: 0.8em;
+    border-bottom: solid #f4f4f4;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+ul{
+    list-style: none;
+}
+
+/* Formatação do Header */
+header{
+    background-color: #00b1f7;
+    text-align: center;
+    padding-top: 35px;
+    color: white;
+}
+#logo #cinza{
+    color: #4e4e4e;
+}
+#current-page{
+    color: #00b1f7; 
+    background-color: white;
+    font-weight: 700;
+}
+/* Fim formatação do Header */
+/* Formatação do menu */
+header .nav-menu ul{
+    padding: 15px;
+    display:flex;
+    justify-content: center;
+    gap:1.5rem;
+}
+header .nav-menu ul li a{
+    color: currentColor;
+    font-weight: 700;
+    transition: 0.4s ease-in-out;
+    
+}
+header .nav-menu ul li a:hover{
+    color: #00b1f7; 
+    background-color: white;
+    font-weight: 700;
+}
+/* Fim formatação do menu */
+
+/* Formatação area principal */
+#principal{
+    width: 1080px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+#area-conteudo{
+    width: 740px;
+    float: left;
+}
+
+#area-lateral{
+    width: 280px;
+    float: right;
+}
+
+.postagem{
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+.postagem a, .postagem-lateral a, .conteudo-lateral a{
+    display: block;
+    margin-top: 10px;
+    color: #0281b3;
+    transition: 0.4s ease-in-out;
+}
+.postagem a:hover, .postagem-lateral a:hover, .conteudo-lateral a:hover{
+    color: #00b1f7;
+    font-weight: bold;
+}
+.postagem img{
+    width: 620px;
+}
+/* Fim formatação area principal */
+
+/*Conteudo Lateral*/
+.conteudo-lateral{
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+/*Footer*/
+footer{
+    height: 80px;
+    clear: both;
+    text-align: center;
+    font-weight: 700;
+    padding: 35px;
+    background-color: #ccc;
+}
